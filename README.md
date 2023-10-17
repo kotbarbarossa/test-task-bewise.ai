@@ -61,7 +61,10 @@ python manage.py migrate
 ```sh
 python manage.py createsuperuser
 ```
-
+Собираем статику:
+```sh
+python manage.py collectstatic
+```
 
 #### Использование
 
